@@ -7,3 +7,5 @@ Instagram_app can sync their photo sharing to other social networks.
 Mohamed Issack Abdi
 # Features
 As a user of the web application you will be able to:
+Sign up and log in
+View photos posted by other users
