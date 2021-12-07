@@ -36,3 +36,6 @@ pip
 
  $ git clone https://github.com/mohamedissack/instagram-app
   $ cd instagram_app
+
+  # Running the Application
+
