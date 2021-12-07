@@ -13,3 +13,5 @@ Follow other users
 Comment on photos
 Edit your profile
 Specifications.
+
+# Behavior	Input	Output
