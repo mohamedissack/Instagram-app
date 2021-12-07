@@ -5,7 +5,6 @@ Instagram_app is a photo sharing app which allows users to assign filters to pho
 Instagram_app can sync their photo sharing to other social networks,
 so Instagram photos can be posted directly to Facebook, Tumblr, Twitter, Flickr, and Foursquare.. 
 
-
 # Author
 Mohamed Issack Abdi
 # Features
@@ -71,7 +70,4 @@ Bootstrap
 This application is developed using Python3.8, Django, HTML and Bootstrap
 
 # LICENSE AND COPY RIGHT INFO.
-MIT License
-
-
-
+[MIT] License
