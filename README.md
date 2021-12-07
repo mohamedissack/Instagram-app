@@ -7,7 +7,7 @@ so Instagram photos can be posted directly to Facebook, Tumblr, Twitter, Flickr,
 
 
 # Author
-Abdiaziz Hussein
+Mohamed Issack Abdi
 # Features
 As a user of the web application you will be able to:
 
