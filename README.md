@@ -70,4 +70,6 @@ Bootstrap
 This application is developed using Python3.8, Django, HTML and Bootstrap
 
 # LICENSE AND COPY RIGHT INFO.
-[MIT] License
+MIT] License
+
+
