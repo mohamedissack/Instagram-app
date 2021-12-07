@@ -29,4 +29,7 @@ Homepage loadse can change their password or logout Homepage loads	User inputs i
 Prerequisites
 python3.8
 virtual environment
-
+pip
+Cloning
+In your terminal:
+pip
