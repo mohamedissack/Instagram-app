@@ -15,3 +15,4 @@ Edit your profile
 Specifications.
 
 # Behavior	Input	Output
+User visits the app and gets redirected to the login page
