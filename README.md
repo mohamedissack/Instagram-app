@@ -23,4 +23,6 @@ Home page loads	Add comment	Comment
 posted appears
 Homepage loads	Click profile	User's profile appears
 Homepage loads	Click upload image icon	User's redirected to a page where they can upload an image
-Homepage loadse can change their password or logout
+Homepage loadse can change their password or logout Homepage loads	User inputs in the search form and presses enter	Searched results show.
+
+# Getting started
