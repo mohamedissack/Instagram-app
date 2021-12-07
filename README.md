@@ -9,3 +9,7 @@ Mohamed Issack Abdi
 As a user of the web application you will be able to:
 Sign up and log in
 View photos posted by other users
+Follow other users
+Comment on photos
+Edit your profile
+Specifications
