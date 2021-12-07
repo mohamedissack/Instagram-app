@@ -38,4 +38,4 @@ pip
   $ cd instagram_app
 
   # Running the Application
-
+Install virtual environment using $ python3.8 -m venv --without-pip virtual
