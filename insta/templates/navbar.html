@@ -1,0 +1,81 @@
+{% load bootstrap4 %}
+{% load static%}
+{{ form.media }}
+
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/home"">
+        <img src="{% static 'img/instagram_black.png' %}" width="64" height="64">
+      </a>
+  
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a href="/home" class="navbar-item">
+          <i class="material-icons">home</i>
+          Home
+        </a>
+  
+        
+  
+        
+  
+        <a href="{% url 'profile' username=user %}" class="navbar-item">
+          <i class="material-icons">face</i>
+          Profile - <strong>{{ request.user }}</strong>
+        </a>
+  
+          <a href="{% url 'upload_image' %}" class="navbar-item">
+            <i style="color: green;" class="material-icons">perm_media</i>
+            <strong>New Post</strong>
+          </a>
+  
+          <a href="{% url 'upload_image' %}" class="navbar-item">
+            <i style="color: green;" class="material-icons">photo_filter</i>
+            <strong>New Story</strong>
+          </a>
+  
+      </div>
+      
+</div>
+<div class="">
+
+    <ul class="navbar-nav ml-auto">
+<li>
+<a href="/logout/">
+<input class="button" type="submit" value="Logout">
+</a>
+
+</li>
+    </ul>
+</div>
+</div>
+</div>
+</nav>
+
+  
+    </div>
+  </nav>
+  
+        {% block banner %}
+        {% endblock %}
+  
+    <section class="section">
+      <div class="container">
+  
+        {% block content %}
+        {% endblock %}
+  
+  
+        {% block pagination %}
+        {% endblock %}
+  
+      </div>
+    </section>

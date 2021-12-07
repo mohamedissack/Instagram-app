@@ -1,0 +1,35 @@
+{% extends 'registration/base.html' %}
+{% load bootstrap4 %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-3">
+            
+        </div>
+        <div class="col-md-6">
+            <div>
+                <div class="section">
+                    <div class="logo mb-5 mt-3">
+                        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.technobezz.com%2Fhow-to-add-another-account-on-instagram%2F&psig=AOvVaw0zJ-ZvScTDblD7UnycyGY_&ust=1610957587408000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIj_-anFou4CFQAAAAAdAAAAABAD" alt="" class="img-fluid" width="300">
+                    </div>
+                    <div class="centre">
+                        {% if user.profile.photo %}
+                        <img src="{{user.profile.photo.cdn_url}}" alt="Profile Photo" width="300" height="300" class="" style="border-radius: 50%">
+                        {% else %}
+                        <img src="/static/images/instagram.jpg" alt="Avatar" width="300" height="300" class="" style="border-radius: 50%">
+                        {% endif %}
+                        <div class="clearfix"></div>
+                        <a href="/home" class="btn btn-sm btn-primary login mt-3">Continue as {{request.user}}?</a>
+                        <p class="text-center mt-2">Not {{request.user}}?<a href="/accounts/login/"> Switch accounts</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-3">
+            
+</div>
+{% endblock %}
