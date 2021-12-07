@@ -5,3 +5,4 @@ Instagram_app can sync their photo sharing to other social networks.
 
 # Author
 Mohamed Issack Abdi
+# Features
