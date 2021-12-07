@@ -17,3 +17,4 @@ Specifications.
 # Behavior	Input	Output
 User visits the app and gets redirected to the login page
 User logs in	Directed to the home page where they see posted photos
+If user has no account,
