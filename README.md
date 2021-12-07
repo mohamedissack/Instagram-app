@@ -23,4 +23,4 @@ Home page loads	Add comment	Comment
 posted appears
 Homepage loads	Click profile	User's profile appears
 Homepage loads	Click upload image icon	User's redirected to a page where they can upload an image
-Homepage loads
+Homepage loadse
