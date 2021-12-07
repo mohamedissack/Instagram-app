@@ -26,3 +26,5 @@ Homepage loads	Click upload image icon	User's redirected to a page where they ca
 Homepage loadse can change their password or logout Homepage loads	User inputs in the search form and presses enter	Searched results show.
 
 # Getting started
+Prerequisites
+
