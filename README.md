@@ -18,3 +18,7 @@ Specifications.
 User visits the app and gets redirected to the login page
 User logs in	Directed to the home page where they see posted photos
 If user has no account, they click on sign up	User signs up	User is redirected 
+to the log in page
+Home page loads	Add comment	Comment 
+posted appears
+Homepage loads	Click profile	User's
